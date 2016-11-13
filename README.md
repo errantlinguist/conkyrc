@@ -1,0 +1,2 @@
+# conkyrc
+Personal .conkyrc configuration
