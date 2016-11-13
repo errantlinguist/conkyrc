@@ -56,31 +56,29 @@ conky.config = {
 };
 
 conky.text = [[
-	${color2}CPU ${color2}${hr 2}$color
-	${color7}$cpugauge${cpu cpu0}%	${cpugraph 000000 ff0000 -t}$color
-	# Commented out because ibm_temps is not working ${color0}${freq}MHz ${color0}${ibm_temps 0}°C $color
-	${color0}${freq}MHz $color
-	${color0}PROCESS${alignr}PID    CPU%    MEM%$color
-	${color3}${top name 1}${alignr}${top pid 1}  ${top cpu 1}  ${top mem 1}$color
-	${color3}${top name 2}${alignr}${top pid 2}  ${top cpu 2}  ${top mem 2}$color
-	${color3}${top name 3}${alignr}${top pid 3}  ${top cpu 3}  ${top mem 3}$color
-	${color3}${top name 4}${alignr}${top pid 4}  ${top cpu 4}  ${top mem 4}$color
-	# ${color3}${top name 5}${alignr}${top pid 5}  ${top cpu 5}  ${top mem 5}$color
-	#
-	${color2}MEMORY ${hr 2}$color
-	${color0}RAM:	${color3}$memperc%	${color3}$membar$color
-	# ${color0}RAM: ${alignc}${color3}$mem	${color0}/	${color3}$memmax${alignr}${color3}$memperc%$color
-	${color0}Swap: ${color3}$swapperc%	${color3}$swapbar$color
-	# ${color0}Swap: ${alignc}${color3}$swap	${color0}/	${color3}$swapmax${alignr}${color3}$swapperc%$color
-	#
-	${color2}NETWORK ${hr 2}$color
-	${color0}eth0 (${addr eth0})$color
-	${color0}Down: ${color3}${downspeed eth0} k/s ${alignr}${color0}Up: ${color3}${upspeed eth0} k/s
-	${color7}${downspeedgraph eth0 25,175 000000 ff0000} ${alignr}${color7}${upspeedgraph eth0 25,175 000000 00ff00}$color
-	${color0}Total: ${color3}${totaldown eth0} ${alignr}${color0}Total: ${color3}${totalup eth0}
-	${color0}wlan0 (${addr wlan0}) ${color6}$color
-	${color0}ESSID: ${color3}${wireless_essid wlan0} ${alignc}${color0}  Bitrate:	${alignr}${color3}${wireless_bitrate wlan0}$color
-	${color0}Down: ${color3}${downspeed wlan0} k/s ${alignr}${color0}Up: ${color3}${upspeed wlan0} k/s
-	${color7}${downspeedgraph wlan0 25,175 000000 ff0000} ${alignr}${color7}${upspeedgraph wlan0 25,175 000000 00ff00}$color
-	${color0}Total: ${color3}${totaldown wlan0} ${alignr}${color0}Total: ${color3}${totalup wlan0}
+${color2}CPU ${color2}${hr 2}$color
+${color7}$cpugauge${cpu cpu0}%	${cpugraph 000000 ff0000 -t}$color
+# Commented out because ibm_temps is not working ${color0}${freq}MHz ${color0}${ibm_temps 0}°C $color
+${color0}${freq}MHz $color
+${color0}PROCESS${alignr}PID    CPU%    MEM%$color
+${color3}${top name 1}${alignr}${top pid 1}  ${top cpu 1}  ${top mem 1}$color
+${color3}${top name 2}${alignr}${top pid 2}  ${top cpu 2}  ${top mem 2}$color
+${color3}${top name 3}${alignr}${top pid 3}  ${top cpu 3}  ${top mem 3}$color
+${color3}${top name 4}${alignr}${top pid 4}  ${top cpu 4}  ${top mem 4}$color
+#${color3}${top name 5}${alignr}${top pid 5}  ${top cpu 5}  ${top mem 5}$color
+
+${color2}MEMORY ${hr 2}$color
+${color0}RAM:	${color3}$memperc%	${color3}$membar$color
+${color0}Swap: ${color3}$swapperc%	${color3}$swapbar$color
+
+${color2}NETWORK ${hr 2}$color
+${color0}eth0 (${addr eth0})$color
+${color0}Down: ${color3}${downspeed eth0} k/s ${alignr}${color0}Up: ${color3}${upspeed eth0} k/s
+${color7}${downspeedgraph eth0 25,175 000000 ff0000} ${alignr}${color7}${upspeedgraph eth0 25,175 000000 00ff00}$color
+${color0}Total: ${color3}${totaldown eth0} ${alignr}${color0}Total: ${color3}${totalup eth0}
+${color0}wlan0 (${addr wlan0}) ${color6}$color
+${color0}ESSID: ${color3}${wireless_essid wlan0} ${alignc}${color0}  Bitrate:	${alignr}${color3}${wireless_bitrate wlan0}$color
+${color0}Down: ${color3}${downspeed wlan0} k/s ${alignr}${color0}Up: ${color3}${upspeed wlan0} k/s
+${color7}${downspeedgraph wlan0 25,175 000000 ff0000} ${alignr}${color7}${upspeedgraph wlan0 25,175 000000 00ff00}$color
+${color0}Total: ${color3}${totaldown wlan0} ${alignr}${color0}Total: ${color3}${totalup wlan0}
 ]];
