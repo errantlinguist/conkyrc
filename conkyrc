@@ -76,9 +76,9 @@ ${color0}eth0 (${addr eth0})$color
 ${color0}Down: ${color3}${downspeed eth0} k/s ${alignr}${color0}Up: ${color3}${upspeed eth0} k/s
 ${color7}${downspeedgraph eth0 25,175 000000 ff0000} ${alignr}${color7}${upspeedgraph eth0 25,175 000000 00ff00}$color
 ${color0}Total: ${color3}${totaldown eth0} ${alignr}${color0}Total: ${color3}${totalup eth0}
-${color0}wlan0 (${addr wlan0}) ${color6}$color
-${color0}ESSID: ${color3}${wireless_essid wlan0} ${alignc}${color0}  Bitrate:	${alignr}${color3}${wireless_bitrate wlan0}$color
-${color0}Down: ${color3}${downspeed wlan0} k/s ${alignr}${color0}Up: ${color3}${upspeed wlan0} k/s
-${color7}${downspeedgraph wlan0 25,175 000000 ff0000} ${alignr}${color7}${upspeedgraph wlan0 25,175 000000 00ff00}$color
-${color0}Total: ${color3}${totaldown wlan0} ${alignr}${color0}Total: ${color3}${totalup wlan0}
+${color0}wlp3s0 (${addr wlp3s0}) ${color6}$color
+${color0}ESSID: ${color3}${wireless_essid wlp3s0} ${alignc}${color0}  Bitrate:	${alignr}${color3}${wireless_bitrate wlp3s0}$color
+${color0}Down: ${color3}${downspeed wlp3s0} k/s ${alignr}${color0}Up: ${color3}${upspeed wlp3s0} k/s
+${color7}${downspeedgraph wlp3s0 25,175 000000 ff0000} ${alignr}${color7}${upspeedgraph wlp3s0 25,175 000000 00ff00}$color
+${color0}Total: ${color3}${totaldown wlp3s0} ${alignr}${color0}Total: ${color3}${totalup wlp3s0}
 ]];
