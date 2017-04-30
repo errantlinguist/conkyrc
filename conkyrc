@@ -58,8 +58,6 @@ conky.config = {
 conky.text = [[
 ${color2}CPU ${color2}${hr 2}$color
 ${color7}$cpugauge${cpu cpu0}%	${cpugraph 000000 ff0000 -t}$color
-# Commented out because ibm_temps is not working
-#${color0}${freq}MHz ${color0}${ibm_temps 0}°C $color
 ${color0}${freq}MHz $color
 ${color0}PROCESS${alignr}PID    CPU%    MEM%$color
 ${color3}${top name 1}${alignr}${top pid 1}  ${top cpu 1}  ${top mem 1}$color
