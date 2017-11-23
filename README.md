@@ -1,5 +1,5 @@
-# conkyrc &mdash; A personal conky configuration
-Personal .conkyrc configuration
+# conkyrc
+A personal `.conkyrc` configuration.
 
 * **Since:** 2016-11-13
 * **Author:** Todd Shore
